@@ -7,7 +7,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
 
-  console.log ('what', inter.className)
+ 
 
   return (
     <html lang="en">

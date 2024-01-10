@@ -39,7 +39,7 @@ export default function Page() {
           >
             <span>Log in</span> <ArrowRightIcon className="w-5 md:w-6" />
           </Link>
-          <h1 className="text-red-500">Now Chapter 4.</h1>
+          <h1 className="text-red-500">Now Chapter 5.</h1>
         </div>
         <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
           {/* Add Hero Images Here */}

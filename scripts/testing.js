@@ -12,8 +12,14 @@ const p2 = new Promise(
         //reject("좋아요 구독 안하심 에러")
     }
 )
+const p3 = new Promise(
+    (resolve, reject) => {
+        setTimeout(resolve, 6000, 6)
+        //reject("좋아요 구독 안하심 에러")
+    }
+)
 
-Promise.all([p1, p2]).then(
+Promise.all([p1, p2, p3]).then(
     (values) => {
         console.log(values)
     }

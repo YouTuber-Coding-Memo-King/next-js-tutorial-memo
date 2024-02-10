@@ -6,6 +6,8 @@ import Link from 'next/link';
 import { lusitana } from './ui/fonts';
 import Image from 'next/image'
 
+
+
 export default function Page() {
 
   
@@ -39,7 +41,7 @@ export default function Page() {
           >
             <span>Log in</span> <ArrowRightIcon className="w-5 md:w-6" />
           </Link>
-          <h1 className="text-red-500">Now Chapter 8.</h1>
+          <h1 className="text-red-500">Now Chapter 9.</h1>
         </div>
         <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
           {/* Add Hero Images Here */}
@@ -59,9 +61,11 @@ export default function Page() {
             className="block md:hidden"
             alt="Screenshots of the dashboard project showing desktop version"
           />
+          
 
         </div>
       </div>
+      
     </main>
   );
 }

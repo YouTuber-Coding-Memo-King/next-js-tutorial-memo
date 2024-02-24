@@ -2,7 +2,7 @@
 import SideNav from '@/app/ui/dashboard/sidenav';
 
 export default function Layout(
-  { children, slotpage }
+  { children }
     : { children: React.ReactNode, slotpage: React.ReactNode }) {
 
      
@@ -13,7 +13,7 @@ export default function Layout(
       </div>
       <div className="flex-grow p-6 md:overflow-y-auto md:p-12">
         {children}
-        {slotpage}
+        {/* {slotpage} */}
       </div>
     </div>
   );

@@ -1,6 +1,7 @@
 import styles from '@/app/ui/home.module.css';
 
 import AcmeLogo from '@/app/ui/acme-logo';
+
 import { ArrowRightIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import { lusitana } from './ui/fonts';
@@ -41,7 +42,7 @@ export default function Page() {
           >
             <span>Log in</span> <ArrowRightIcon className="w-5 md:w-6" />
           </Link>
-          <h1 className="text-red-500">Now Chapter 14.</h1>
+          <h1 className="text-red-500">Now Chapter 15.</h1>
         </div>
         <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
           {/* Add Hero Images Here */}

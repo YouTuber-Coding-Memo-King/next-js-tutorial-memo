@@ -27,12 +27,18 @@ async function seedUsers(client) {
       users.map(async (user) => {
         const hashedPassword = await bcrypt.hash(user.password, 10);
         return client.sql`
-        INSERT INTO users (id, name, email, password)
+        INSERT INTO users (id, name, email, password)        
         VALUES (${user.id}, ${user.name}, ${user.email}, ${hashedPassword})
         ON CONFLICT (id) DO NOTHING;
       `;
       }),
     );
+
+    //VALUES (${user.id}, ${user.name}, ${user.email}, ${hashedPassword})
+    // hashedPassword의 사용 이유를 DB에서 확인하기.
+    //VALUES (${user.id}, ${user.name}, ${user.email}, ${user.password})
+    // user.password로 사용할 경우 DB에서 어떻게 표현되며, 예상되는 문제는?
+    // DROP TABLE users; 로 DB에서 삭제후에, 확인해보기.
 
     console.log(`Seeded ${insertedUsers.length} users`);
 
@@ -112,7 +118,6 @@ async function seedCustomers(client) {
       `,
       ),
     );
-
     console.log(`Seeded ${insertedCustomers.length} customers`);
 
     return {
@@ -148,8 +153,8 @@ async function seedRevenue(client) {
       ),
     );
 
-    console.log(`Seeded ${insertedRevenue.length} revenue`);
-
+    console.log(`Seeded ${insertedRevenue.length} revenue`); 
+    
     return {
       createTable,
       revenue: insertedRevenue,

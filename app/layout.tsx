@@ -23,9 +23,9 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <meta property="og:title" content="Title Here" />
+      {/* <meta property="og:title" content="Title Here" />
       <meta property="og:description" content="Description Here" />
-      <meta property="og:image" content="opengraph-image.png" />
+      <meta property="og:image" content="opengraph-image.png" /> */}
       <body className={`${inter.className} antialiased`}>{children}</body>
     </html>
   );

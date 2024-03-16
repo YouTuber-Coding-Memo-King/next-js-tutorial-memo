@@ -9,9 +9,9 @@ export const authConfig = {
       const isLoggedIn = !!auth?.user;
       const isOnDashboard = nextUrl.pathname.startsWith('/dashboard');
     
-      console.log("nextUrl", nextUrl)
-      console.log("isLoggedIn", isLoggedIn)
-      console.log("isOnDashboard", isOnDashboard)
+      //console.log("nextUrl", nextUrl)
+      //console.log("isLoggedIn", isLoggedIn)
+      //console.log("isOnDashboard", isOnDashboard)
 
 
       if (isOnDashboard) {

@@ -29,15 +29,15 @@ export const { auth, signIn, signOut } = NextAuth({
           if (parsedCredentials.success) {
             const { email, password } = parsedCredentials.data;
             const user = await getUser(email);
-            console.log('user', user)
+            //console.log('user', user)
             if (!user) return null;
 
             const passwordsMatch = await bcrypt.compare(password, user.password);
             
             //전부 다 확인같이 해보아요.
-            console.log('passwordsMatch', passwordsMatch)
-            console.log('password', password)
-            console.log('user.password', user.password)
+            //console.log('passwordsMatch', passwordsMatch)
+            //console.log('password', password)
+            //console.log('user.password', user.password)
 
             if (passwordsMatch) return user;
 

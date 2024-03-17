@@ -1,3 +1,6 @@
+// 여기 페이지 함께 공부했던, 메모는 그냥 남겨둘게요.
+// 여러분이 변경하여 사용하시면 되겠습니다.
+
 'use client'
 import React, { useState, useReducer } from 'react';
 import { lusitana } from '@/app/ui/fonts';

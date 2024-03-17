@@ -29,12 +29,19 @@ export default function RootLayout({
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="600" /> */}
 
-      <meta property="og:title" content="YouTuber-Coding-Memo-King" />
-      <meta property="og:description" content="Please visit this channel" />
-      <meta property="og:image" content="https://yt3.googleusercontent.com/yDKBqDHpwXYDGMFQYoLgZSfJ9MmtaayTJ8gB1cJjzwDIlf1HU4XNJxPIhUJ9fsmk13BMCfSzzOw=s900-c-k-c0x00ffffff-no-rj"></meta>
-      <meta name="twitter:title" content="YouTuber-Coding-Memo-King" />
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:description" content="Please visit and share this channel" />
+      <meta property="og:url" content="https://dptest-git-chapter16-youtuber-coding-memo-kings-projects.vercel.app?_vercel_share=ga66n4kk9stu8agivl2lukxahdrmnai8"></meta>
+      <meta property="og:type" content="website"></meta>
+      <meta property="og:title" content=""></meta>
+      <meta property="og:description" content=""></meta>
+      <meta property="og:image" content=""></meta>
+
+
+      <meta name="twitter:card" content="summary_large_image"></meta>
+      <meta property="twitter:domain" content="dptest-git-chapter16-youtuber-coding-memo-kings-projects.vercel.app"></meta>
+      <meta property="twitter:url" content="https://dptest-git-chapter16-youtuber-coding-memo-kings-projects.vercel.app?_vercel_share=ga66n4kk9stu8agivl2lukxahdrmnai8"></meta>
+      <meta name="twitter:title" content=""></meta>
+      <meta name="twitter:description" content=""></meta>
+      <meta name="twitter:image" content=""></meta>
       <meta name="twitter:image" content="https://yt3.googleusercontent.com/yDKBqDHpwXYDGMFQYoLgZSfJ9MmtaayTJ8gB1cJjzwDIlf1HU4XNJxPIhUJ9fsmk13BMCfSzzOw=s900-c-k-c0x00ffffff-no-rj"></meta>
 
 

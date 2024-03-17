@@ -33,7 +33,7 @@ export default function RootLayout({
       <meta property="og:type" content="website"></meta>
       <meta property="og:title" content="Tutorial Chapter 16"></meta>
       <meta property="og:description" content="turorial"></meta>
-      <meta property="og:image" content="opengraph-image.png"></meta>
+      <meta property="og:image" content="https://github.com/YouTuber-Coding-Memo-King/dptest/blob/main/public/opengraph-image.png"></meta>
 
 
       <meta name="twitter:card" content="summary_large_image"></meta>
@@ -41,7 +41,7 @@ export default function RootLayout({
       <meta property="twitter:url" content="https://dptest-git-chapter16-youtuber-coding-memo-kings-projects.vercel.app?_vercel_share=ga66n4kk9stu8agivl2lukxahdrmnai8"></meta>
       <meta name="twitter:title" content=""></meta>
       <meta name="twitter:description" content="tutorial"></meta>
-      <meta name="twitter:image" content="opengraph-image.png"></meta>
+      <meta name="twitter:image" content="https://github.com/YouTuber-Coding-Memo-King/dptest/blob/main/public/opengraph-image.png"></meta>
 
 
       <link rel="icon" href="react.svg" />

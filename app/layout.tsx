@@ -34,7 +34,7 @@ export default function RootLayout({
       <meta name="twitter:title" content="Learn Next.js: Adding Metadata" />
       <meta name="twitter:card" content="summary_large_image"/>
       <meta name="twitter:description" content="Learn how to add metadata to your Next.js application."/>
-      <meta name="twitter:image" content="./public/opengraph-image.png"/>
+      <meta name="twitter:image" content="https://www.youtube.com/img/desktop/yt_1200.png"/>
 
 
       <link rel="icon" href="react.svg" />
@@ -43,3 +43,4 @@ export default function RootLayout({
   );
 }
 
+//public\opengraph-image.png

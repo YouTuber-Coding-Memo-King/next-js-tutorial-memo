@@ -29,12 +29,13 @@ export default function RootLayout({
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="600" /> */}
 
-
-      <meta property="og:image" content="https://nextjs.org/api/learn-og?title=Adding%20Metadata&amp;chapter=16"/>
-      <meta name="twitter:title" content="Learn Next.js: Adding Metadata" />
-      <meta name="twitter:card" content="summary_large_image"/>
-      <meta name="twitter:description" content="Learn how to add metadata to your Next.js application."/>
-      <meta name="twitter:image" content="https://www.youtube.com/img/desktop/yt_1200.png"/>
+      <meta property="og:title" content="YouTuber-Coding-Memo-King" />
+      <meta property="og:description" content="Please visit this channel" />
+      <meta property="og:image" content="https://yt3.googleusercontent.com/yDKBqDHpwXYDGMFQYoLgZSfJ9MmtaayTJ8gB1cJjzwDIlf1HU4XNJxPIhUJ9fsmk13BMCfSzzOw=s900-c-k-c0x00ffffff-no-rj"></meta>
+      <meta name="twitter:title" content="YouTuber-Coding-Memo-King" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:description" content="Please visit and share this channel" />
+      <meta name="twitter:image" content="https://www.youtube.com/img/desktop/yt_1200.png" />
 
 
       <link rel="icon" href="react.svg" />
@@ -43,4 +44,3 @@ export default function RootLayout({
   );
 }
 
-//public\opengraph-image.png

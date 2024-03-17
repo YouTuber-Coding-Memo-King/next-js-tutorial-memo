@@ -35,7 +35,7 @@ export default function RootLayout({
       <meta name="twitter:title" content="YouTuber-Coding-Memo-King" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:description" content="Please visit and share this channel" />
-      <meta name="twitter:image" content="https://www.youtube.com/img/desktop/yt_1200.png" />
+      <meta name="twitter:image" content="https://yt3.googleusercontent.com/yDKBqDHpwXYDGMFQYoLgZSfJ9MmtaayTJ8gB1cJjzwDIlf1HU4XNJxPIhUJ9fsmk13BMCfSzzOw=s900-c-k-c0x00ffffff-no-rj"></meta>
 
 
       <link rel="icon" href="react.svg" />

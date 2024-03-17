@@ -23,10 +23,23 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <meta property="og:title" content="Title Here" />
+      {/* <meta property="og:title" content="Title Here" />
       <meta property="og:description" content="Description Here" />
       <meta property="og:image" content="opengraph-image.png" />
+      <meta property="og:image:width" content="1200" />
+      <meta property="og:image:height" content="600" /> */}
+
+
+      <meta property="og:image" content="https://nextjs.org/api/learn-og?title=Adding%20Metadata&amp;chapter=16"/>
+      <meta name="twitter:title" content="Learn Next.js: Adding Metadata" />
+      <meta name="twitter:card" content="summary_large_image"/>
+      <meta name="twitter:description" content="Learn how to add metadata to your Next.js application."/>
+      <meta name="twitter:image" content="https://nextjs.org/api/learn-og?title=Adding%20Metadata&amp;chapter=16"/>
+
+
+      <link rel="icon" href="react.svg" />
       <body className={`${inter.className} antialiased`}>{children}</body>
     </html>
   );
 }
+
